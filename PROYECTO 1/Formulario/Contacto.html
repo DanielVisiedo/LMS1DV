@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Hora del formulario!</h1>
+    <form method="post" action="Contacto.php">
+        <fieldset>
+            <legend>Identificate</legend>
+                <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" placeholder="John" required><br>
+                <label for="apell">Apellido:</label><br>
+            <input type="text" id="apell" name="apell" placeholder="Smith" required><br>
+                <label for="email">Email:</label> <br>
+            <input type="email" id="email" name="email" required><br><br>
+        </fieldset>   
+
+    <h4>¿Has jugado a alguno de los títulos que te hemos mostrado?</h4>
+        <input type="radio" id="si" name="sino" value="si">
+            <label for="si">SÍ</label><br>
+        <input type="radio" id="no" name="sino" value="no">
+            <label for="no">NO</label>
+        <br>
+
+    <h4>¿Cuál/Cuáles?</h4>
+        <input type="checkbox" id="juego1" name="juego1" value="RHP">
+            <label for="juego1">Radiant Historia: Perfect</label><br>
+        <input type="checkbox" id="juego2" name="juego2" value="LA">
+            <label for="juego2">Legendary Axe</label><br>
+        <input type="checkbox" id="juego3" name="juego3" value="Pers">
+            <label for="juego3">Persona</label><br>
+        <input type="checkbox" id="juego4" name="juego4" value="GHW">
+            <label for="juego4">Growlanser: Heritage of War</label><br>
+        <input type="checkbox" id="juego5" name="juego5" value="Pers4G">
+            <label for="juego5">Persona 4 Golden</label><br>     
+        <input type="checkbox" id="juego6" name="juego6" value="Pers2E">
+            <label for="juego6">Persona 2: Eternal</label><br>
+        <input type="checkbox" id="juego7" name="juego7" value="SMT3">
+            <label for="juego7">Shin Megami Tensei III</label><br>
+        <input type="checkbox" id="juego8" name="juego8" value="TMS">
+            <label for="juego8">Tokyo Mirage Sessions #FE</label><br>
+        <input type="checkbox" id="juego9" name="juego9" value="Pers4A">
+            <label for="juego9">Persona 4 Arena</label><br>
+        <input type="checkbox" id="juego10" name="juego10" value="Pers5">
+            <label for="juego10">Persona 5</label><br>
+
+    <h4>¡Puntuanos!</h4>
+        <input type="radio" id="1" name="puntuaje" value="1">
+            <label for="1">1</label>
+        <input type="radio" id="2" name="puntuaje" value="2">
+            <label for="2">2</label>
+        <input type="radio" id="3" name="puntuaje" value="3">
+            <label for="3">3</label>
+        <input type="radio" id="4" name="puntuaje" value="4">
+            <label for="3">4</label>
+        <input type="radio" id="5" name="puntuaje" value="5">
+            <label for="3">5</label>
+        <br>
+    <h4>Comenta!</h4>
+        <textarea name="comentarios" rows="10" cols="20" placeholder="Me ha encantado el post."></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form> 
+</body>
+</html>
